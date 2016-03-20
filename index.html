@@ -13,63 +13,113 @@
   <title>Gamelle</title>
   <link rel="icon" type="image/png" href="img/favicon.jpg" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
+<script src="js/fluid.js" ></script>
 </head>
 
 <body>
 
-  <div class="container">
+  <header>
 
-    <div class="row">
-
-
-      <div class="rectangle-28 col-md-12 col-lg-12 col-xs-12 col-sm-12 center-block">
-        <h2>VOTRE TICKET MIAM-MIAM</h2>
-      </div>
-
-      <div class="rectangle-26">
-        <div class="text-center">
-          <h2>La gamelle</h2>
-          <h6>la popote sociale et réfléchie!</h6>
-        </div>
-        <div class="text-right">
-          <a href="" class="btn btn-default btn-1">Bouton</a>
-          <a href="" class="btn btn-default btn-2">Bouton</a>
-        </div>
-      </div>
-
-      <div class="rectangle-27 col-md-12 col-lg-12 col-xs-12 col-sm-12">
-        <div class="localisation col-md-2 col-xs-2 col-lg-2 col-sm-2">
-          <h3>Localisation</h3>
-          <p>Roubaix</p>
-        </div>
-        <div class="date col-md-2 col-xs-2 col-lg-2 colsm-2">
-          <h3>Date</h3>
-          <p>Mardi 21 Mars</p>
-        </div>
-        <div class="nbpersonne col-md-2 col-xs-2 col-lg-2 col-sm-2">
-          <h3>Couverts</h3>
-          <p>2</p>
-        </div>
-        <div class="heure col-md-2 col-xs-2 col-lg-2 col-sm-2">
-          <h3>Heure</h3>
-          <p>12h30</p>
-        </div>
-        <div class="jemangeou col-md-2">
-          <p>Je mange chez l'hôte</p>
-          <p>Je préfere emporter mon plat</p>
-        </div>
-      </div>
-
-      <div class="bitmap"></div>
-      <div class="rectangle-2">
-        <div class="rectangle-54"></div>
-        <div class="rectangle-54"></div>
-      </div>
-
-
+    <div class="logo">
+      <img src="img/logo.png" class="center-block" alt="logo">
     </div>
-  </div>
+    <div class="headertop">
+      <div class="text-right">
+        <button type="button" class="btn btn-1" name="button"><a href="#">Connexion</a></button>
+        <button type="button" class="btn btn-1 btn-2" name="button"><a href="#">Inscription</a></button>
+      </div>
+    </div>
+    <div class="headerdown">
+      <div class="etsi text-center">
+          <div id="slider">
+
+           <div class="inline"><span class="1">Et si vous mangiez </span></div>
+             <div  class="inline">
+                 <ul>
+                 <li class="active animated fadeIn">avec mamie </li>
+                 <li>avec Sarah </li>
+                 <li>chez René </li>
+                 <li>avec Najib </li>
+                 <li>chez Mickael </li>
+                 <li>avec Josette </li>
+                 <li>chez Patrick </li>
+                 <li>chez Jean-Pascal </li>
+             </ul></div>
+     <div  class="inline"><span class="1"> ce midi ?</span></div>
+
+
+       </div>
+
+        <button type="button" class="btn btn3" name="button"><a href="#">Mode d'emploi</a></button>
+      </div>
+
+
+      <!--début de la div générant la barre de recherche -->
+      <div class="hero__content-footer hide-sm text-center">
+        <div class="searchbar">
+          <form id="searchbar-form" action="/s">
+
+            <div class="searchbar__input-wrapper">
+
+              <label class="searchbar__location">
+                <span class="screen-reader-only">
+                </span>
+                <input id="location" type="text" class="input-large input-contrast" autocomplete="off" name="location" placeholder="Où voulez-vous manger ?" />
+                <div id="searchbar-location-error" class="searchbar__location-error hide col-sm-12 col-xs-12 col-md-12 col-lg-12">
+                </div>
+              </label>
+
+              <label class="searchbar__checkin">
+                <span class="screen-reader-only">
+                </span>
+                <input id="checkin" type="text" class="checkin input-large input-contrast" name="checkin" placeholder="Jour" />
+              </label>
+
+              <label class="searchbar__checkout">
+                <span class="screen-reader-only">
+                </span>
+                <input id="checkout" type="text" class="checkout input-large input-contrast" name="checkout" placeholder="Heure" />
+              </label>
+
+              <label class="searchbar__guests">
+                <span class="screen-reader-only">
+                </span>
+                <div class="select select-large ">
+                  <select id="guests" name="guests">
+                    <option value="1">1 couvert</option>
+                    <option value="2">2 couverts</option>
+                    <option value="3">3 couverts</option>
+                    <option value="4">4 couverts</option>
+                    <option value="5">5 couverts</option>
+                    <option value="6">6 couverts</option>
+                    <option value="7">7 couverts</option>
+                    <option value="8">8 couverts</option>
+                    <option value="9">9 couverts</option>
+                    <option value="10">10 couverts</option>
+                    <option value="11">11 couverts</option>
+                    <option value="12">12 couverts</option>
+                    <option value="13">13 couverts</option>
+                    <option value="14">14 couverts</option>
+                    <option value="15">15 couverts</option>
+                    <option value="16">16+ couverts</option>
+                  </select>
+                </div>
+              </label>
+
+              <button id="submit_location" type="submit" class="searchbar__submit btn btn-danger btn-large">
+                Miam!
+              </button>
+
+              <input type="hidden" name="source" value="bb"></form>
+            </div>
+
+
+
+
+        </div>
+
+
+  </header>
 
 
 
