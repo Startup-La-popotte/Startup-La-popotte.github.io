@@ -107,3 +107,9 @@ ul {
 span .1{
     padding-bottom: 10px;
 vertical-align: middle;}
+
+.btn-modif{
+    color:white!important;
+    font-weight: bold!important;
+    font-size:1.5em!important;
+}
