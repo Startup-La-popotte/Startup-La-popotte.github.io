@@ -3,18 +3,16 @@ header {
   width: 100%;
   height: 100%;
 }
-
 header .headertop {
   position: relative;
   width: 100%;
   height: 50vh;
-  background: url(../img/mainhaut.png) no-repeat   scroll;
+  background: url(../img/mainhaut.png) no-repeat scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
-
 header .headerdown {
   position: relative;
   width: 100%;
@@ -25,13 +23,11 @@ header .headerdown {
   background-size: cover;
   -o-background-size: cover;
 }
-
 .logo {
   position: absolute;
   margin-left: 32.5%;
   z-index: 2000;
 }
-
 .btn-1 {
   width: 137.9px;
   height: 54px;
@@ -47,69 +43,81 @@ header .headerdown {
 .btn-1:hover {
   background-color: #c37d09;
 }
-
 .center-block {
   width: 75%;
 }
-
 .btn3 {
   width: 249px;
- height: 63.2px;
- border-radius: 31px;
- background-color: #417505;
+  height: 63.2px;
+  border-radius: 31px;
+  background-color: #417505;
 }
 .btn3:hover {
   background-color: #315005;
 }
-
 button, input, select, textarea {
-  height:  50px;
+  height: 50px;
   width: 185px;
 }
-
 header h2 {
   color: white;
   font-weight: bold;
   margin-bottom: 3%;
 }
-
 .etsi {
   margin-top: 3%;
 }
 .hero__content-footer {
   margin-top: 2%;
 }
-
-
-li.active{
-    visibility: visible;
-display: inline-flex;    transition: all 0.25s ease-in-out 0s;
-       -moz-transition: opacity .25s ease-in-out;
-       -webkit-transition: opacity .25s ease-in-out;
-    float: left;
-    text-align: left;
-    margin: 0;
-    padding: 0;
-  }
-
-li{
-list-style-type:none;
-display: none;
+li.active {
+  visibility: visible;
+  display: inline-flex;
+  transition: all 0.25s ease-in-out 0s;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+  float: left;
+  text-align: left;
+  margin: 0;
+  padding: 0;
 }
-
+li {
+  list-style-type: none;
+  display: none;
+}
 ul {
-      padding-left: 0;
+  padding-left: 0;
 }
- .inline{
-    display: inline-block;
- }
-
-span .1{
-    padding-bottom: 10px;
-vertical-align: middle;}
+.inline {
+  display: inline-block;
+}
+.active {
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  color: #d9534f;
+}
+.bonsoir {
+  vertical-align: middle;
+  padding-top: 5px;
+}
+* {
+  box-sizing: border-box;
+  vertical-align: middle;
+  padding-bottom: 18px;
+}
 
 .btn-modif{
-    color:white!important;
-    font-weight: bold!important;
-    font-size:1.5em!important;
+   color:white!important;
+   font-weight: bold!important;
+   font-size:1.5em!important;
+}
+
+
+.select.select-large {
+  padding-bottom: 0px;
+}
+.tonbouyenstring {
+  padding-bottom: 3px;
+
 }
