@@ -94,9 +94,48 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   #menusHead {
+       background: rgba(0, 0, 0, 0) url("/library/img/idees-repas/sprites-menus.jpg") no-repeat scroll 0 0;
+       display: block;
+       height: 91px;
+       margin: 0 0 15px;
+       width: 681px;
+   }
 
 
-
+   *, *::after, *::before {
+       box-sizing: border-box;
+   }
+   *, *::after, *::before {
+       box-sizing: border-box;
+   }
+   .secondNav.big ul {
+       font-size: 1.125rem;
+   }
+   .showhide_target.showhide-small {
+       max-height: inherit;
+       overflow: visible;
+       padding: inherit;
+   }
+   .secondNav ul {
+       display: flex;
+       flex-wrap: nowrap;
+       font-size: 0.875rem;
+       margin: 0;
+       padding: 0;
+       position: relative;
+       width: 100%;
+   }
+   .bold, .fontMedium, b, strong {
+       font-family: HelveticaNeueMediumCondensed;
+       font-weight: 400;
+   }
+   .showhide_target {
+       max-height: 0;
+       overflow: hidden;
+       padding: 0;
+       transition: max-height 0.35s ease 0s;
+   }
 
 
 
