@@ -117,7 +117,12 @@ ul {
 .select.select-large {
   padding-bottom: 0px;
 }
-.tonbouyenstring {
+.tb {
   padding-bottom: 3px;
 
+}
+
+.carte{
+    background-image: url(../img/carte.png);
+    background-size: cover;
 }
