@@ -121,3 +121,8 @@ ul {
   padding-bottom: 3px;
 
 }
+
+.carte{
+    background-image: url(../img/carte.png);
+    background-size: cover;
+}
